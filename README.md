@@ -75,10 +75,10 @@ cp client/mosquitto_sub /usr/bin
 cp lib/libmosquitto.so.1 /usr/lib
 cp src/mosquitto /usr/bin
 ```
-<br>接下来设置mosquitto用户名和密码
+<br>接下来设置mosquitto用户名和密码（下面例子里，用户名是henkeliot）
 
 ```
-mosquitto_passwd -c /etc/mosquitto/passwd enter_your_username
+mosquitto_passwd -c /etc/mosquitto/passwd henkeliot
 nano /etc/mosquitto/mosquitto.conf
 ```
 
