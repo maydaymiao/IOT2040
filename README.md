@@ -75,11 +75,14 @@ cp lib/libmosquitto.so.1 /usr/lib
 cp src/mosquitto /usr/bin
 ```
 <br>接下来设置mosquitto用户名和密码
-```linux
+
+```
 mosquitto_passwd -c /etc/mosquitto/passwd enter_your_username
 nano /etc/mosquitto/mosquitto.conf
 ```
+
 在mosquitto.conf的最下面添加，最后reboot重启
+
 ```
 allow_anonymous false
 password_file /etc/mosquitto/passwd
