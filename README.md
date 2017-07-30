@@ -58,6 +58,7 @@ mkdir project
 
 <h2 id="3">3. Install Mosquitto</h2>
 Example Image里自带的mosquitto版本太低，以下步骤可升级到最新版（版本好按照最新版修改），整个过程大概要花费15分钟完成。
+
 ```
 cd
 wget http://mosquitto.org/files/source/mosquitto-1.4.14.tar.gz
